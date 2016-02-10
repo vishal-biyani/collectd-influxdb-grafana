@@ -1,0 +1,19 @@
+Hostname    "%HOSTNAME%"
+
+Interval 5
+ReadThreads 5
+
+LoadPlugin cpu
+LoadPlugin load
+LoadPlugin memory
+LoadPlugin swap
+LoadPlugin battery
+LoadPlugin interface
+LoadPlugin swap
+LoadPlugin users
+
+
+LoadPlugin network
+<Plugin "network">
+    Server "db.hs.com" "25826"
+</Plugin>
