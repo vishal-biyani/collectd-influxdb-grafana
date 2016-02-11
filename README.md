@@ -1,6 +1,6 @@
 # README #
 
-Repo for monitoring POC using collectd influxdb and grafana.
+Repo for monitoring POC using collectd influxdb and grafana. More details at www.vishalbiyani.com/graphing-performance-with-collectd-influxdb-grafana
 
 
 ### How do I get set up? ###
